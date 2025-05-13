@@ -18,3 +18,12 @@ Support multi-plateforme : Compatible avec plusieurs systèmes d’exploitation 
 Automatisation : S’intègre avec des outils comme Ansible, Terraform et des bash script pour automatiser les tâches d’administration.
 Vérification de l’état du cluster : Fournit des outils pour diagnostiquer et vérifier l’état du cluster.
 
+# Preparation environnement & prérequis
+
+# Installation control node
+
+# Installation worker node
+
+# Commandes utiles
+
+# Tips
