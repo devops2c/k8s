@@ -26,7 +26,7 @@ Vérification de l’état du cluster : Fournit des outils pour diagnostiquer et
 
 # Commandes utiles
 - https://hackernoon.com/lang/fr/configurer-et-g%C3%A9rer-un-cluster-kubernetes-avec-kubeadm
--  https://www.server-world.info/
+-  https://www.server-world.info/en/
 # Tips
 - changer vers root : # sudo -s (sans changement ~ ) ou # su -  (avec changement ~)
-- changer mot de passe root : sudo passwd root
+- changer mot de passe root : # sudo passwd root
