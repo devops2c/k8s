@@ -25,5 +25,6 @@ Vérification de l’état du cluster : Fournit des outils pour diagnostiquer et
 # Installation worker node
 
 # Commandes utiles
-
+- https://hackernoon.com/lang/fr/configurer-et-g%C3%A9rer-un-cluster-kubernetes-avec-kubeadm
+- 
 # Tips
