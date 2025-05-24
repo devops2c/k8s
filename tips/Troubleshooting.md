@@ -30,3 +30,5 @@ EOF
 
 ![image](https://github.com/user-attachments/assets/9482eebb-8599-40bd-b6a7-4a463681786f)
 
+# Valider l’accessibilité de l’API
+curl -k https://127.0.0.1:6443/version
