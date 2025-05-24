@@ -25,5 +25,7 @@ Vérification de l’état du cluster : Fournit des outils pour diagnostiquer et
 # Installation worker node
 
 # Commandes utiles
+kubeadm token create --print-join-command
+
 
 # Tips
