@@ -23,3 +23,28 @@ Sans containerd, kubelet échoue au démarrage (comme dans ton erreur).
 Rôle du nœud	containerd requis ?	kubelet requis ?	kubeadm requis ?
 Master	✅ Oui	✅ Oui	✅ Oui
 Worker	✅ Oui	✅ Oui	✅ Oui
+
+# Configuration & install
+# Installer containerd
+sudo apt install -y containerd
+
+# Générer sa config
+sudo mkdir -p /etc/containerd
+containerd config default | sudo tee /etc/containerd/config.toml
+
+# Activer et démarrer
+sudo systemctl restart containerd
+sudo systemctl enable containerd
+
+# Charger les modules
+sudo modprobe overlay
+sudo modprobe br_netfilter
+
+# Appliquer les règles réseau
+cat <<EOF | sudo tee /etc/sysctl.d/99-kubernetes-cri.conf
+net.bridge.bridge-nf-call-iptables = 1
+net.ipv4.ip_forward = 1
+net.bridge.bridge-nf-call-ip6tables = 1
+EOF
+
+sudo sysctl --system
