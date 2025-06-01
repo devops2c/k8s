@@ -20,9 +20,6 @@ curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.29/deb/Release.key |
 sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
 
 📦 3. Ajoute la source de paquets :
-bash
-Copier
-Modifier
 echo "deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.29/deb/ /" | sudo tee /etc/apt/sources.list.d/kubernetes.list
 
 🔁 4. Recharge les sources :
