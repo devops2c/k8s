@@ -1,0 +1,2 @@
+kubelet est un composant système qui tourne sur chaque nœud, pas une commande d'administration directe.
+kubectl est l'outil pour interagir avec le cluster.
