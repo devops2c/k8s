@@ -10,7 +10,6 @@ N: Voir les pages de manuel d'apt-secure(8) pour la création des dépôts et le
 
 #Etapes & commandes ✅ Étapes 100 % fiables pour Ubuntu 24.04 (mise à jour mai 2025)
 🧹 1. Nettoie tout :
-
 sudo rm -f /etc/apt/sources.list.d/kubernetes.list
 sudo rm -f /etc/apt/keyrings/kubernetes-apt-keyring.gpg
 🔐 2. Ajoute la clé GPG et le dépôt (v1.29 ou autre)
