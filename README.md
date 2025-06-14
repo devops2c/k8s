@@ -25,7 +25,14 @@ Vérification de l’état du cluster : Fournit des outils pour diagnostiquer et
 # Installation worker node
 
 # Commandes utiles
+<<<<<<< HEAD
 kubeadm token create --print-join-command
 
 
+=======
+- https://hackernoon.com/lang/fr/configurer-et-g%C3%A9rer-un-cluster-kubernetes-avec-kubeadm
+-  https://www.server-world.info/en/
+>>>>>>> remotes/origin/init/feature
 # Tips
+- changer vers root : # sudo -s (sans changement ~ ) ou # su -  (avec changement ~)
+- changer mot de passe root : # sudo passwd root
