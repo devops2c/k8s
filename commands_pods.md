@@ -16,3 +16,11 @@ kubectl get pods --all-namespaces | grep ContainerStatusUnknown | awk '{print $1
     echo "Deleting $namespace/$pod"
     kubectl delete pod "$pod" -n "$namespace" --grace-period=0 --force
   done
+
+# All Commands
+Commande	                     Description
+kubectl get pods	             Liste les pods dans le cluster
+kubectl describe pod <pod>  	 Détaille tout : conteneurs, événements, volumes, etc.
+kubectl logs <pod>	             Logs du conteneur principal d’un pod
+kubectl exec -it <pod> -- bash	 Exécute une commande dans un conteneur du pod
+kubectl delete pod <pod>	     Supprime un pod (Kubernetes recrée un nouveau si nécessaire)
