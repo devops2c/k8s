@@ -1,4 +1,4 @@
-#creer alias
+# creer alias
 which kubectl
 k version --client
 
