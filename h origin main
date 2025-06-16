@@ -1,0 +1,28 @@
+*   [33m4b04a3b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/init/feature[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32minit/feature[m[33m)[m Merge remote-tracking branch 'remotes/origin/init/feature'
+[31m|[m[32m\[m  
+[31m|[m * [33m29260bc[m add commands_linix
+[31m|[m * [33m8c82cd8[m add commands_pod.md
+[31m|[m * [33m89b3798[m add limit resouce
+[31m|[m * [33m7c3862e[m aa
+[31m|[m * [33m66378c8[m aaa test3
+[31m|[m * [33m4c838c0[m add test3
+[31m|[m * [33mcf04987[m add test2
+[31m|[m * [33m60540f6[m add work folder
+[31m|[m * [33m5b1cbb4[m Update README.md
+[31m|[m * [33mbe4ad65[m Update README.md
+[31m|[m * [33ma550ccd[m Update README.md
+* [32m|[m [33m1cf88e0[m Update redmi.md
+* [32m|[m [33m7c3037b[m Create notes
+* [32m|[m [33m77547ed[m Update redmi.md
+* [32m|[m [33m3883cd1[m add Valider l’accessibilité de l’API
+* [32m|[m [33m97591a9[m add kubeadm token create --print-join-command
+* [32m|[m [33m4afe753[m Create Troubleshooting.md
+* [32m|[m [33m53333ad[m Update containerd.md
+* [32m|[m [33m8e676c3[m Create containerd.md
+* [32m|[m [33mba99d77[m Update redmi.md
+* [32m|[m [33m81fd7a1[m add solution depot k8s
+* [32m|[m [33m1ccda19[m add tips k8s folder
+[32m|[m[32m/[m  
+* [33meb8670f[m Update README.md
+* [33m41ef1c1[m Update README.md
+* [33m844a9dd[m Initial commit
